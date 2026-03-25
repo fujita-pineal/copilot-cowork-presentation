@@ -6,7 +6,7 @@ colorSchema: light
 transition: slide-left
 aspectRatio: '16/9'
 canvasWidth: 980
-download: true
+download: false
 exportFilename: copilot-cowork-presentation
 duration: '40min'
 wakeLock: true
