@@ -1,0 +1,23 @@
+{
+  "name": "slidev-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "slidev --open",
+    "dev:animated": "slidev slides-animated.md --open",
+    "build": "slidev build",
+    "build:animated": "slidev build slides-animated.md",
+    "export": "slidev export",
+    "export-pdf": "slidev export --with-clicks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@slidev/cli": "^52.14.1",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}
